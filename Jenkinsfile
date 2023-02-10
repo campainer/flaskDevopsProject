@@ -11,7 +11,7 @@ pipeline {
        stage('Build') {
            steps {
                echo 'Building..'
-               sh 'docker image build -t $DOCKER_HUB_REPO:latest .'
+               sh 'docker build -t $DOCKER_HUB_REPO:latest .'
            }
        }
        stage('Test') {
