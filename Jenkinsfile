@@ -4,7 +4,7 @@ pipeline {
    environment {
        DOCKER_HUB_REPO = "alkido/flask-hello-world"
        CONTAINER_NAME = "flask-hello-world"
-    //    DOCKERHUB_CREDENTIALS=credentials('dockerhub-credentials')
+       DOCKERHUB_CREDENTIALS=credentials('08090948-ccb6-4ce7-9b1e-188de32962d4')
    }
   
    stages {
